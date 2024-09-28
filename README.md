@@ -54,6 +54,7 @@ local response = KeyGuardLibrary.validateDefaultKey(key)
 ```
 
 
+
 Получение информации о сервисе
 ```lua
 KeyGuardLibrary.validateDefaultKey(key)
