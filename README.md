@@ -26,9 +26,36 @@ KeyGuardLibrary.Set({
 })
 ```
 
+**Как найти мои токены?** —
+Вам нужно зайти в Services — Home — API
+
+В коде вы найдете ваши токены
+
 ## Другие переменные
 Тут будет ваш ключ, ключ следует вводить перед проверкой
 
 ```lua
 local key = ""
 ```
+
+## Функции
+Проверка обычного ключа
+```lua
+KeyGuardLibrary.validateDefaultKey(key)
+```
+
+Проверка премиум ключа
+```lua
+KeyGuardLibrary.validatePremiumKey(key)
+```
+
+
+```lua
+KeyGuardLibrary.validateDefaultKey(key)
+```
+
+Получение ссылки с указанием hwid
+```lua
+KeyGuardLibrary.getLink()
+```
+Например, можно использовать **setclipboard(KeyGuardLibrary.getLink())** — будет копировать ссылку в буфер обмена
