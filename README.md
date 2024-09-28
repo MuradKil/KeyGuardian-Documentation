@@ -8,4 +8,4 @@
 
 ### Быстро пробежимся по вкладкам в Services
 * Home!
-[IMG_1140](https://github.com/user-attachments/assets/64181f25-3852-4323-a566-a10521bd6101)
+https://github.com/user-attachments/assets/64181f25-3852-4323-a566-a10521bd6101
