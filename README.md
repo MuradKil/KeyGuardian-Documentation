@@ -38,7 +38,10 @@ KeyGuardLibrary.Set({
 local key = ""
 ```
 
-## Функции
+## Функци проверки
+Эти функци только осуществляют функцию проверки, а не саму проверку.
+Для этого нужно использовать конструкцию **if**, про нее будет ниже
+
 Проверка обычного ключа
 ```lua
 KeyGuardLibrary.validateDefaultKey(key)
@@ -48,13 +51,12 @@ KeyGuardLibrary.validateDefaultKey(key)
 ```lua
 KeyGuardLibrary.validatePremiumKey(key)
 ```
+
 Эти проверки лучше использовать таким образом:
 ```lua
 local response = KeyGuardLibrary.validateDefaultKey(key)
 ```
-
-
-
+## Другие функции
 Получение информации о сервисе
 ```lua
 KeyGuardLibrary.validateDefaultKey(key)
