@@ -7,5 +7,5 @@
 Вы можете зарегестрироваться через электронную почту, либо через **Discord**
 
 ### Быстро пробежимся по вкладкам в Services
-* Home!
-https://github.com/user-attachments/assets/64181f25-3852-4323-a566-a10521bd6101
+* Home
+![IMG_1140](https://github.com/user-attachments/assets/47a92496-71e9-47ef-a2e8-41207ce4373b)
