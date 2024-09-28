@@ -48,8 +48,13 @@ KeyGuardLibrary.validateDefaultKey(key)
 ```lua
 KeyGuardLibrary.validatePremiumKey(key)
 ```
+Эти проверки лучше использовать таким образом:
+```lua
+local response = KeyGuardLibrary.validateDefaultKey(key)
+```
 
 
+Получение информации о сервисе
 ```lua
 KeyGuardLibrary.validateDefaultKey(key)
 ```
@@ -59,3 +64,12 @@ KeyGuardLibrary.validateDefaultKey(key)
 KeyGuardLibrary.getLink()
 ```
 Например, можно использовать **setclipboard(KeyGuardLibrary.getLink())** — будет копировать ссылку в буфер обмена
+
+## Проверка ключа
+```lua
+if response == trueData then
+  print("Key is valid")
+else
+  print("Key is invalid")
+end
+```
